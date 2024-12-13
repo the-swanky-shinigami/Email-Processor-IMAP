@@ -9,9 +9,9 @@ Features
 
 * Extracts the sender, subject, and timestamp of each email.
 
-* Stores email details in a local SQLite database (emails.db).
+* Stores email details in a local SQLite database (```emails.db```).
 
-* Logs processed emails and any errors encountered during execution in a log file (email_processor.log).
+* Logs processed emails and any errors encountered during execution in a log file (```email_processor.log```).
 
 * Implements retry logic to handle transient failures during connection or email processing.
 
@@ -19,10 +19,10 @@ Installation
 
 Clone the repository:
 
-'''
+```
 git clone https://github.com/your-username/email-processor-with-retry.git
 cd email-processor-with-retry
-'''
+```
 
 Install necessary dependencies:
 
