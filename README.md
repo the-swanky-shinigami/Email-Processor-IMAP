@@ -17,15 +17,21 @@ Features
 
 Installation
 
-Clone the repository:
+1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/email-processor-with-retry.git
-cd email-processor-with-retry
+git clone https://github.com/the-swanky-shinigami/Email-Processor-IMAP.git
+cd email_processor_imap
 ```
 
-Install necessary dependencies:
+2. Install necessary dependencies:
 
+```
 pip install pandas
+```
 
-Ensure your Gmail account is set up to allow IMAP and third-party apps. Create an app password for secure login.
+3. Ensure your Gmail account is set up to allow IMAP and third-party apps. Create an app password for secure login.
+
+Usage
+
+In the ```main()``` function, replace the placeholder credentials with your Gmail username and app password and run everyhing.
